@@ -58,6 +58,10 @@ update-themes:  ## Update all themes loaded as git submodules
 build: ## Build content for publishing
 	$(ZOLA_COMMAND) build
 
+.PHONY:serve
+serve: ## Run a local instance of the site for debugging
+	$(ZOLA_COMMAND) serve
+
 .PHONY:publish
 publish: .check-env-publish build  ## Send the files to hosting provider using scp
 	rsync -e 'ssh -o StrictHostKeyChecking=accept-new' -atvz $(OUTPUT_DIR)/* $(TARGET_SYSTEM):$(TARGET_DIR)/
