@@ -1,0 +1,54 @@
+# The URL the site will be built for
+base_url = "http://brothersoftheflame.com"
+
+title = "Brothers of the Flame"
+
+default_language = "en"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+theme = "zplit"
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = false
+
+# When set to "true", an RSS feed is automatically generated.
+generate_rss = false
+
+taxonomies = [
+    {name = "tags", rss = false},
+]
+
+[extra]
+# Put all your custom variables here
+date_format = "%F"
+
+toc=false
+
+home_subtitle = "An Ancient Art with a Modern Spark"
+
+footer_copyright = '<p xmlns:cc="http://creativecommons.org/ns#" >This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC-ND 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nd.svg?ref=chooser-v1" alt=""></a></p>'
+
+[exta.lists]
+
+#menu = [
+#    { link = "/posts", name = "Posts" },
+#    { link = "/tags", name = "Tags" },
+#    { link = "/about", name = "About" },
+#]
+
+social = [
+    { text = "tiktok", url = "https://www.tiktok.com/@botf.satx" },
+    { text = "linkedin", url = "https://www.linkedin.com/company/brothers-of-the-flame/" },
+    { text = "email", url = "mailto:booking@brothersoftheflame.com" },
+]
+
+[extra.author]
+name = "Wulff"
+email = "wulff@brothersoftheflame.com"
+homepage = "http://brothersoftheflame.com"
+
+#[extra.google_analytics]
+#enable = true
+#id = ""
