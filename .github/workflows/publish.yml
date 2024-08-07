@@ -29,6 +29,9 @@ jobs:
         install -m 600 -D /dev/null ~/.ssh/id_rsa
         echo "${{ secrets.DEPLOY_KEY }}" | base64 -d  > ~/.ssh/id_rsa
 
+    - name: Update the theme #shouldnt be necessary
+      run: make update-themes
+
     - name: Publish site
       run: make publish
       env:

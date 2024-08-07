@@ -21,5 +21,8 @@ jobs:
     steps:
     - uses: actions/checkout@v4
 
+    - name: Update the theme #shouldnt be necessary
+      run: make update-themes
+  
     - name: Render site
       run: make build

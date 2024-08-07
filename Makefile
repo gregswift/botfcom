@@ -28,7 +28,7 @@ debug-%: ## Debug a variable by calling `make debug-VARIABLE`
 
 .PHONY:clean
 clean: ## Cleanup the local checkout
-	-rm -f *~ $(OUTPUT_DIR)
+	-rm -rf *~ $(OUTPUT_DIR)
 
 .PHONY:.check-env-publish
 .check-env-publish:
