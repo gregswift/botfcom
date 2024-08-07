@@ -1,6 +1,8 @@
 +++
 +++
 
+# Brothers of the Flame
+
 We are the Brothers of the Flame, and we are inviting you to bask in the
 heat that our performers bring to your event.
 
