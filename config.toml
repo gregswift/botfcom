@@ -43,16 +43,10 @@ background = "images/background.jpg"
 
 [extra.lists]
 
-#menu = [
-#    { link = "/posts", name = "Posts" },
-#    { link = "/tags", name = "Tags" },
-#    { link = "/about", name = "About" },
-#]
-
-social = [
-    { text = "tiktok", url = "https://www.tiktok.com/@botf.satx" },
-    { text = "linkedin", url = "https://www.linkedin.com/company/brothers-of-the-flame/" },
-    { text = "email", url = "mailto:booking@brothersoftheflame.com" },
+connect = [
+    { text = "Email", url = "mailto:booking@brothersoftheflame.com" },
+    { text = "TikTok", url = "https://www.tiktok.com/@botf.satx" },
+    { text = "LinkedIn", url = "https://www.linkedin.com/company/brothers-of-the-flame/" },
 ]
 
 #[extra.google_analytics]
