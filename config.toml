@@ -43,7 +43,7 @@ background = "images/background.jpg"
 
 [extra.lists]
 
-connect = [
+social = [
     { text = "Email", url = "mailto:booking@brothersoftheflame.com" },
     { text = "TikTok", url = "https://www.tiktok.com/@botf.satx" },
     { text = "LinkedIn", url = "https://www.linkedin.com/company/brothers-of-the-flame/" },
