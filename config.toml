@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://drafts.brothersoftheflame.com"
+base_url = "https://brothersoftheflame.com"
 
 title = "Brothers of the Flame"
 

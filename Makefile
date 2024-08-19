@@ -15,6 +15,8 @@ CONTAINER_ENGINE ?= podman
 CE_RUN = $(CONTAINER_ENGINE) run -i --rm -w $(CONTAINER_WORKDIR) -v $(PWD):$(CONTAINER_WORKDIR)
 ZOLA_COMMAND := $(CE_RUN) ghcr.io/getzola/zola:v0.19.1
 
+ZOLA_BASE_URL := $(if $(BASE_URL),--base-url $(BASE_URL),)
+
 TARGET_PORT := $(if $(TARGET_PORT),$(TARGET_PORT),22)
 
 export
@@ -58,7 +60,7 @@ update-themes:  ## Update all themes loaded as git submodules
 
 .PHONY:build
 build: ## Build content for publishing
-	$(ZOLA_COMMAND) build
+	$(ZOLA_COMMAND) build $(ZOLA_BASE_URL)
 
 .PHONY:serve
 serve: ## Run a local instance of the site for debugging
