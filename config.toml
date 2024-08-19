@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "drafts.brothersoftheflame.com"
+base_url = "https://drafts.brothersoftheflame.com"
 
 title = "Brothers of the Flame"
 
@@ -33,6 +33,11 @@ footer_copyright = '<p xmlns:cc="http://creativecommons.org/ns#" >This work is l
 [extra.content]
 intro_tagline = "Ancient Arts with a Modern Spark"
 bio = "We are the Brothers of the Flame, and we are inviting you to bask in the heat that our performers bring to your event. E-mail us for more information."
+
+[extra.visual]
+
+background = "images/background.jpg"
+
 
 [extra.lists]
 
